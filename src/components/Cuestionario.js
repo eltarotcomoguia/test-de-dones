@@ -95,7 +95,6 @@ function Cuestionario() {
     }
 
     const totalSi = respuestas.filter((respuesta) => respuesta === "si").length;
-    //alert(mensajesActuales.totalSi(totalSi));
     navigate("/resultado", { state: { totalSi } });
   };
 
