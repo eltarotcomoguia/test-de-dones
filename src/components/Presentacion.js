@@ -1,35 +1,30 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { GlobalStyle } from '../Styles/GlobalStyle';
+import { Mainn, Section, Title, Div, I, Button } from "../Styles/Style";
 
 function Presentacion() {
     const navigate = useNavigate();
 
     return (
-        <main>
-            <section>
-                <div style={{ textAlign: "center", marginTop: "50px" }}>
-                    <h1>Bienvenido al Test</h1>
-                    <p>
+        <Mainn>
+            <GlobalStyle />
+            <Section id="quote-box">
+                <Title>Bienvenido al Test</Title>
+                <Div texto>
+                    <I className="fa fa-quote-left"></I>
+                    <span id="text">
                         Este test está diseñado para ayudarte a descubrir en qué nivel se encuentra tu afinidad con la conciencia superior.
                         Te invitamos a honrar ese potencial, alineándote con tu Esencia y participando en la misión de alinearte con tu propio propósito y aportarle al desarrollo de la soberanía energética de la humanidad.
-                    </p>
-                    <button
-                        style={{
-                            padding: "10px 20px",
-                            fontSize: "16px",
-                            backgroundColor: "#007bff",
-                            color: "white",
-                            border: "none",
-                            borderRadius: "5px",
-                            cursor: "pointer",
-                        }}
-                        onClick={() => navigate("/cuestionario")}
-                    >
+                    </span>
+                </Div>
+                <Div boton>
+                    <Button id="new-quote" onClick={() => navigate("/cuestionario")}>
                         Empezar el Test
-                    </button>
-                </div>
-            </section>
-        </main>
+                    </Button>
+                </Div>
+            </Section>
+        </Mainn>
     );
 }
 
