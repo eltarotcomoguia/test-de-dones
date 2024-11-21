@@ -19,7 +19,7 @@ function Presentacion() {
                     </span>
                 </Div>
                 <Div boton>
-                    <Button id="new-quote" onClick={() => navigate("/cuestionario")}>
+                    <Button siguiente id="new-quote" onClick={() => navigate("/cuestionario")}>
                         Empezar el Test
                     </Button>
                 </Div>

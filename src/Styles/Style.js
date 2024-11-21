@@ -30,6 +30,15 @@ export const Div = styled.div`
         font-size: 2rem;
     `};
 
+    ${props => props.opcion && css`
+        width: 45rem;
+        height: auto;
+        clear: both;
+        padding-top: 2rem;
+        font-size: 1.5rem;
+        text-align: center;
+    `};
+
     ${props => props.boton && css`
         width: 45rem;
         margin: auto;
@@ -43,17 +52,41 @@ export const I = styled.i`
 
 `
 
+export const Label = styled.label`
+    margin-right:1rem;
+    margin-left:1rem;
+
+`
+
 export const Button = styled.button`
-    background-color: rgb(71, 46, 50);
-    float: right;
-    height: 3.8rem;
-    border: none;
-    border-radius: 0.3rem;
-    color: white;
-    outline: none;
-    font-size: 1.5rem;
-    padding: 0.8rem 1.8rem 0.6rem 1.8rem;
-    margin-top: 3rem;
-    opacity: 1;
-    cursor: pointer;
+
+    ${props => props.siguiente && css`
+        background-color: rgb(71, 46, 50);
+        float: right;
+        height: 3.8rem;
+        border: none;
+        border-radius: 0.3rem;
+        color: white;
+        outline: none;
+        font-size: 1.5rem;
+        padding: 0.8rem 1.8rem 0.6rem 1.8rem;
+        margin-top: 3rem;
+        opacity: 1;
+        cursor: pointer;
+        `};
+
+    ${props => props.atras && css`
+        background-color: rgb(71, 46, 50);
+        float: left;
+        height: 3.8rem;
+        border: none;
+        border-radius: 0.3rem;
+        color: white;
+        outline: none;
+        font-size: 1.5rem;
+        padding: 0.8rem 1.8rem 0.6rem 1.8rem;
+        margin-top: 3rem;
+        opacity: 1;
+        cursor: pointer;
+    `};
 `;

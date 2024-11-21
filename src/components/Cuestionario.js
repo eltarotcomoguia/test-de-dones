@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from "react-router-dom";
+import { GlobalStyle } from '../Styles/GlobalStyle';
+import { Mainn, Section, Title, Div, I, Button, Label } from "../Styles/Style";
 
 function Cuestionario() {
 
@@ -98,45 +100,47 @@ function Cuestionario() {
   };
 
   return (
-    <main>
-      <section>
-        <div id='titulo'>
-          <h1>Test de Dones</h1>
-        </div>
-        <div id='preguntas'>
+    <Mainn>
+      <GlobalStyle />
+      <Section id="quote-box">
+        <Title>Test de Dones</Title>
+        <Div texto id='preguntas'>
+          <I className="fa fa-quote-left"></I>
           <span id="text">
             {preguntas[indicePregunta]}
           </span>
-          <form>
-            <label htmlFor="p1">
+        </Div>
+        <form>
+          <Div opcion>
+            <Label htmlFor="p1">
               Si
               <input type='radio' name="respuesta" value="si" onChange={() => manejarRespuesta("si")} checked={respuestas[indicePregunta] === "si"} required />
-            </label>
-            <label htmlFor="p1">
+            </Label>
+            <Label htmlFor="p1">
               No
               <input type='radio' name="respuesta" value="no" onChange={() => manejarRespuesta("no")} checked={respuestas[indicePregunta] === "no"} required />
-            </label>
-          </form>
-          <div id='boton'>
-            {indicePregunta > 0 && (
-              <button type="button" onClick={anteriorPregunta} style={{ marginRight: "10px" }}>
-                Atrás
-              </button>
-            )}
+            </Label>
+          </Div>
+        </form>
+        <Div boton id='boton'>
+          {indicePregunta > 0 && (
+            <Button atras id="new-quote" type="button" onClick={anteriorPregunta} style={{ marginRight: "10px" }}>
+              Atrás
+            </Button>
+          )}
 
-            {indicePregunta < preguntas.length - 1 ? (
-              <button type="button" onClick={siguientePregunta} style={{ marginRight: "10px" }}>
-                Siguiente
-              </button>
-            ) : (
-              <button type="button" onClick={enviarFormulario}>
-                Enviar
-              </button>
-            )}
-          </div>
-        </div>
-      </section>
-    </main>
+          {indicePregunta < preguntas.length - 1 ? (
+            <Button siguiente id="new-quote" type="button" onClick={siguientePregunta} style={{ marginRight: "10px" }}>
+              Siguiente
+            </Button>
+          ) : (
+            <Button siguiente id="new-quote" type="button" onClick={enviarFormulario}>
+              Enviar
+            </Button>
+          )}
+        </Div>
+      </Section>
+    </Mainn>
   );
 }
 
