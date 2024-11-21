@@ -58,6 +58,15 @@ export const Label = styled.label`
 
 `
 
+export const P = styled.p`
+
+    ${props => props.mens && css`
+        font-style: italic;
+        font-size: 2.5rem;
+    `};
+    
+`
+
 export const Button = styled.button`
 
     ${props => props.siguiente && css`
