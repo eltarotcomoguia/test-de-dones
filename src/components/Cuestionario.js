@@ -43,6 +43,7 @@ function Cuestionario() {
 
   const [indicePregunta, setIndicePregunta] = useState(0);
   const [respuestas, setRespuestas] = useState([]);
+  const navigate = useNavigate();
 
   const idioma = navigator.language || "es";
 
@@ -92,7 +93,8 @@ function Cuestionario() {
     }
 
     const totalSi = respuestas.filter((respuesta) => respuesta === "si").length;
-    alert(mensajesActuales.totalSi(totalSi));
+    //alert(mensajesActuales.totalSi(totalSi));
+    navigate("/resultado", { state: { totalSi } });
   };
 
   return (
