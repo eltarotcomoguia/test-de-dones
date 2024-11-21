@@ -6,19 +6,21 @@ export const Title = styled.h1`
   margin-bottom: 20px;
 
   @media (max-width: 768px) {
-    font-size: 3rem; /* Reducir tamaño en pantallas más pequeñas */
+    font-size: 3rem;
   }
 
   @media (max-width: 480px) {
-    font-size: 2rem; /* Más pequeño aún para dispositivos muy pequeños */
+    font-size: 2rem;
   }
 `;
+
 
 export const Mainn = styled.main`
     position: relative;
     z-index: 2;
     padding:1rem;
 `
+
 
 export const Section = styled.section`
     border-radius: 0.3rem;
@@ -30,14 +32,15 @@ export const Section = styled.section`
     margin: auto;
 
     @media (max-width: 768px) {
-        width: 90%; /* Ajusta el ancho al 90% del viewport */
-        padding: 2rem 2rem; /* Reduce el padding */
+        width: 90%;
+        padding: 2rem 2rem;
     }
 
     @media (max-width: 480px) {
-        padding: 1.5rem 1rem; /* Padding más pequeño para móviles */
+        padding: 1.5rem 1rem;
     }
 `
+
 
 export const Div = styled.div`
     ${props => props.texto && css`
@@ -49,13 +52,13 @@ export const Div = styled.div`
         font-size: 2rem;
 
         @media (max-width: 768px) {
-            width: 90%; /* Ancho completo */
-            font-size: 1.5rem; /* Reduce el tamaño del texto */
+            width: 90%;
+            font-size: 1.5rem;
             margin: auto;
         }
 
         @media (max-width: 480px) {
-            font-size: 1.2rem; /* Más pequeño aún para dispositivos móviles */
+            font-size: 1.2rem;
         }
     `};
 
@@ -68,14 +71,14 @@ export const Div = styled.div`
         text-align: center;
 
         @media (max-width: 768px) {
-      width: 90%; /* Ajustar el ancho */
-      margin: auto; /* Centrar las opciones */
-      font-size: 1.2rem;
-    }
+            width: 90%;
+            margin: auto;
+            font-size: 1.2rem;
+        }
 
-    @media (max-width: 480px) {
-      font-size: 1rem; /* Reducir aún más el tamaño */
-    }
+        @media (max-width: 480px) {
+            font-size: 1rem;
+        }
     `};
 
     ${props => props.boton && css`
@@ -83,34 +86,35 @@ export const Div = styled.div`
         margin: auto;
         display: flex;
         justify-content: center;
-        gap: 1rem; /* Espaciado entre botones */
+        gap: 1rem;
 
         @media (max-width: 768px) {
-      width: 100%;
-      gap: 0.5rem; /* Reducir el espacio entre botones */
-    }
+            width: 100%;
+            gap: 0.5rem;
+        }
 
-    @media (max-width: 480px) {
-      //flex-direction: column; /* Apilar los botones */
-      align-items: center;
-      gap: 0.5rem;
-    }
+        @media (max-width: 480px) {
+            align-items: center;
+            gap: 0.5rem;
+        }
     `};
 `
+
 
 export const I = styled.i`
     font-size: 2.6rem;
     margin-right:1rem;
 
     @media (max-width: 768px) {
-        font-size: 2rem; /* Icono más pequeño */
+        font-size: 2rem;
     }
 
     @media (max-width: 480px) {
-        font-size: 1.5rem; /* Más pequeño aún en móviles */
+        font-size: 1.5rem;
     }
 
 `
+
 
 export const Label = styled.label`
     margin-right:1rem;
@@ -118,16 +122,15 @@ export const Label = styled.label`
     font-size: 1.5rem;
 
     @media (max-width: 768px) {
-    font-size: 1.2rem; /* Reducir tamaño de fuente en tabletas */
-  }
+        font-size: 1.2rem;
+    }
 
-  @media (max-width: 480px) {
-    font-size: 1rem; /* Reducir más para dispositivos móviles */
-    //display: block; /* Mostrar cada opción en línea separada */
-    margin: 0.5rem 0.5rem; /* Agregar espacio entre opciones */
-  }
-
+    @media (max-width: 480px) {
+        font-size: 1rem;
+        margin: 0.5rem 0.5rem;
+    }
 `
+
 
 export const P = styled.p`
 
@@ -135,8 +138,8 @@ export const P = styled.p`
         font-style: italic;
         font-size: 2.5rem;
     `};
-    
 `
+
 
 export const Button = styled.button`
 

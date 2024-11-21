@@ -14,7 +14,7 @@ export const useColor = () => {
         '#73A857'
     ];
 
-    let color=colores[Math.floor(Math.random()*11)]
+    let color = colores[Math.floor(Math.random() * 11)]
 
-    return{color};
+    return { color };
 };

@@ -1,15 +1,15 @@
-import {createGlobalStyle} from 'styled-components';
-import {useColor} from '../hooks/useColor';
+import { createGlobalStyle } from 'styled-components';
+import { useColor } from '../hooks/useColor';
 
-const Color =()=>{
-    const {color}=useColor();
-    let dibujar=color;
+const Color = () => {
+    const { color } = useColor();
+    let dibujar = color;
     return dibujar;
 }
 
-const dibujar=Color();
+const dibujar = Color();
 
-export const GlobalStyle =createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
     *{
         box-sizing: border-box;
         margin: 0;
