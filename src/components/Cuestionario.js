@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import { GlobalStyle } from '../Styles/GlobalStyle';
-import { Mainn, Section, Title, Div, I, Button, Label } from "../Styles/Style";
+import { Mainn, Section, Title, Div, I, Button, Label,Input } from "../Styles/Style";
 
 function Cuestionario() {
 
@@ -10,7 +10,7 @@ function Cuestionario() {
     ,
     "¿Te sucede a menudo que sabes quién está llamando o texteando antes de mirar el teléfono?"
     ,
-    "¿Notas que tu sensaciones físicas o emocionales de advierten de situaciones o que tu intuición te guía con frecuencia en decisiones importantes o en momentos críticos?"
+    "¿Notas que tu sensaciones físicas o emocionales te advierten de situaciones o que tu intuición te guía con frecuencia en decisiones importantes o en momentos críticos?"
     ,
     "¿Te ha ocurrido que, en estados de profunda calma, sientes un flujo de información o “mensajes” internos?"
     ,
@@ -113,11 +113,11 @@ function Cuestionario() {
           <Div opcion>
             <Label htmlFor="p1">
               Si
-              <input type='radio' name="respuesta" value="si" onChange={() => manejarRespuesta("si")} checked={respuestas[indicePregunta] === "si"} required />
+              <Input radio type='radio' name="respuesta" value="si" onChange={() => manejarRespuesta("si")} checked={respuestas[indicePregunta] === "si"} required />
             </Label>
             <Label htmlFor="p1">
               No
-              <input type='radio' name="respuesta" value="no" onChange={() => manejarRespuesta("no")} checked={respuestas[indicePregunta] === "no"} required />
+              <Input radio type='radio' name="respuesta" value="no" onChange={() => manejarRespuesta("no")} checked={respuestas[indicePregunta] === "no"} required />
             </Label>
           </Div>
         </form>
@@ -134,7 +134,7 @@ function Cuestionario() {
             </Button>
           ) : (
             <Button siguiente id="new-quote" type="button" onClick={enviarFormulario}>
-              Enviar
+              Ver Resultados
             </Button>
           )}
         </Div>
