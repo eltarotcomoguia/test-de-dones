@@ -1,17 +1,18 @@
 import styled, { css } from 'styled-components';
 
 export const Title = styled.h1`
-  text-align: center;
-  font-size: 4rem;
-  margin-bottom: 20px;
+    font-family: 'Cosmic_cat', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 20px;
 
-  @media (max-width: 768px) {
-    font-size: 3rem;
-  }
+    @media (max-width: 768px) {
+        font-size: 3rem;
+    }
 
-  @media (max-width: 480px) {
-    font-size: 2rem;
-  }
+    @media (max-width: 480px) {
+        font-size: 2rem;
+    }
 `;
 
 
@@ -154,6 +155,7 @@ export const Button = styled.button`
 
     ${props => props.siguiente && css`
         background-color: rgb(71, 46, 50);
+        font-family: 'Cosmic_cat', sans-serif;
         float: right;
         height: 3.8rem;
         border: none;
@@ -180,6 +182,7 @@ export const Button = styled.button`
 
     ${props => props.atras && css`
         background-color: rgb(71, 46, 50);
+        font-family: 'Cosmic_cat', sans-serif;
         float: left;
         height: 3.8rem;
         border: none;

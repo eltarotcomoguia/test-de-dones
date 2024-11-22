@@ -34,7 +34,16 @@ function Resultado() {
                     <br />
                     <br />
                     <br />
-                    <span>¿Te gustaría desarrollar tus dones? Hemos creado Círculo Veintidós, una comunidad privada para que desarrolles propósito, dones y sensibilidad. Un lugar seguro en internet para desarrollar tu potencial psíquico. <br /> ¿Te resuena? <br /><br />Clic aquí para unirte a la Lista de Espera.</span>     
+                    <span>¿Te gustaría desarrollar tus dones? Hemos creado Círculo Veintidós, una comunidad privada para que desarrolles propósito, dones y sensibilidad. Un lugar seguro en internet para desarrollar tu potencial psíquico. <br /> ¿Te resuena? <br /><br />
+                        <a
+                            href="https://chat.whatsapp.com/B8nTVFl0uG57wKEmVqrRID"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: 'blue', textDecoration: 'underline' }}
+                        >
+                            Clic aquí para unirte a la Lista de Espera.
+                        </a>
+                    </span>
                     <br />
                     <br />
                     <br />

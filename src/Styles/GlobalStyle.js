@@ -23,7 +23,7 @@ export const GlobalStyle = createGlobalStyle`
         background-repeat: no-repeat;
         background-position: center;
         color: ${color};
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Cochin LT Std', sans-serif;
         font-weight: 400;
         display: flex;
         flex-wrap:wrap;

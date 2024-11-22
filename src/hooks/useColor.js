@@ -20,7 +20,6 @@ export const useColor = () => {
 
     const imagenes = [fondo1, fondo2, fondo3, fondo4];
 
-    // Funciones auxiliares
     const getLuminosity = (hex) => {
         const r = parseInt(hex.slice(1, 3), 16) / 255;
         const g = parseInt(hex.slice(3, 5), 16) / 255;
@@ -43,7 +42,6 @@ export const useColor = () => {
 
     const imagen = imagenes[Math.floor(Math.random() * imagenes.length)];
 
-    // Encontrar un color con buen contraste
     let color;
     do {
         color = colores[Math.floor(Math.random() * colores.length)];
