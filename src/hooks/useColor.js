@@ -1,3 +1,8 @@
+import fondo1 from '../image/fondo1.jpg';
+import fondo2 from '../image/fondo2.jpg';
+import fondo3 from '../image/fondo3.jpg';
+import fondo4 from '../image/fondo4.jpg';
+
 export const useColor = () => {
     let colores = [
         '#16a085',
@@ -14,7 +19,10 @@ export const useColor = () => {
         '#73A857'
     ];
 
-    let color = colores[Math.floor(Math.random() * 11)]
+    const imagenes = [fondo1, fondo2, fondo3, fondo4];
 
-    return { color };
+    const color = colores[Math.floor(Math.random() * 11)]
+    const imagen = imagenes[Math.floor(Math.random() * imagenes.length)];
+
+    return { color, imagen };
 };

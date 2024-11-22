@@ -1,13 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 import { useColor } from '../hooks/useColor';
 
-const Color = () => {
-    const { color } = useColor();
-    let dibujar = color;
-    return dibujar;
-}
-
-const dibujar = Color();
+const { color, imagen } = useColor();
 
 export const GlobalStyle = createGlobalStyle`
     *{
@@ -23,8 +17,12 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background-color: ${dibujar};
-        color: ${dibujar};
+      
+        background-image: url(${imagen});
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: ${color};
         font-family: 'Raleway', sans-serif;
         font-weight: 400;
         display: flex;
