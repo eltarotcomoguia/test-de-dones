@@ -140,6 +140,7 @@ export const P = styled.p`
     `};
 `
 
+
 export const Input = styled.input`
 
     ${props => props.radio && css`
@@ -147,6 +148,7 @@ export const Input = styled.input`
         margin-left:0.4rem;
     `};
 `
+
 
 export const Button = styled.button`
 
