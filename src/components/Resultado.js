@@ -1,7 +1,7 @@
 import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { GlobalStyle } from '../Styles/GlobalStyle';
-import { Mainn, Section, Title, Div, Button, P, I } from "../Styles/Style";
+import { Mainn, Section, Title, Div, Button, P } from "../Styles/Style";
 
 function Resultado() {
     const location = useLocation();
@@ -29,7 +29,6 @@ function Resultado() {
                 <Div texto>
                     <P mens>{m}</P>
                     <br />
-                    <I className="fa fa-quote-left"></I>
                     <span>{mensaje}</span>
                     <br />
                     <br />

@@ -14,13 +14,15 @@ export const GlobalStyle = createGlobalStyle`
     
     html{
         font-size: 62.5%;
+        height: 100vh;
+        width: 100vw;
     }
 
     body {
       
         background-image: url(${imagen});
         background-size: cover;
-        background-repeat: no-repeat;
+       // background-repeat: no-repeat;
         background-position: center;
         color: ${color};
         font-family: 'Cochin LT Std', sans-serif;
@@ -30,5 +32,10 @@ export const GlobalStyle = createGlobalStyle`
         justify-content: center;
         align-items: center;
         height: 100vh;
+        width: 100vw;
+    }
+
+    button {
+        background-color: ${color};
     }
 `

@@ -1,4 +1,7 @@
 import styled, { css } from 'styled-components';
+import { useColor } from '../hooks/useColor';
+
+const { color } = useColor();
 
 export const Title = styled.h1`
     font-family: 'Cosmic_cat', sans-serif;
@@ -11,7 +14,7 @@ export const Title = styled.h1`
     }
 
     @media (max-width: 480px) {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 `;
 
@@ -59,7 +62,7 @@ export const Div = styled.div`
         }
 
         @media (max-width: 480px) {
-            font-size: 1.2rem;
+            font-size: 1.5rem;
         }
     `};
 
@@ -154,7 +157,6 @@ export const Input = styled.input`
 export const Button = styled.button`
 
     ${props => props.siguiente && css`
-        background-color: rgb(71, 46, 50);
         font-family: 'Cosmic_cat', sans-serif;
         float: right;
         height: 3.8rem;
@@ -169,19 +171,18 @@ export const Button = styled.button`
         cursor: pointer;
 
         @media (max-width: 768px) {
-            font-size: 1.2rem;
+            font-size: 1.5rem;
             padding: 0.6rem 1.5rem;
             margin-top: 2rem;
         }
 
         @media (max-width: 480px) {
-            font-size: 1rem;
+            font-size: 1.5rem;
             padding: 0.5rem 0.5rem;
         }
     `};
 
     ${props => props.atras && css`
-        background-color: rgb(71, 46, 50);
         font-family: 'Cosmic_cat', sans-serif;
         float: left;
         height: 3.8rem;
@@ -196,13 +197,13 @@ export const Button = styled.button`
         cursor: pointer;
 
         @media (max-width: 768px) {
-            font-size: 1.2rem;
+            font-size: 1.5rem;
             padding: 0.6rem 1.5rem;
             margin-top: 2rem;
         }
 
         @media (max-width: 480px) {
-            font-size: 1rem;
+            font-size: 1.5rem;
             padding: 0.5rem 0,5rem;
         }
     `};
