@@ -2,7 +2,7 @@
   "name": "test-de-dones",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://eltarotcomoguia.github.io/test-de-dones",
+  "homepage": "https://eltarotcomoguia.github.io/test-de-dones",
   "packageManager": "yarn@4.5.1",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.1",
@@ -10,11 +10,10 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
-    "eslint-config-react-app": "^7.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "6",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "styled-components": "^6.1.13",
     "web-vitals": "^2.1.0"
   },
@@ -26,11 +25,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "eslintConfig": {},
+  "resolutions": {
+    "eslint-config-react-app": "7.0.1",
+    "eslint": "^8.0.0"
   },
   "browserslist": {
     "production": [
@@ -45,6 +43,8 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^9.15.0",
+    "eslint-config-react-app": "^7.0.1",
     "gh-pages": "^6.2.0"
   }
 }
