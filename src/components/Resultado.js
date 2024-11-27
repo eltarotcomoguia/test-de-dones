@@ -46,7 +46,16 @@ function Resultado() {
                     <br />
                     <br />
                     <br />
-                    <span>¿Quieres seguir indagando por los dones espirituales? Te regalo un Ebook gratuito sobre el tema, espero lo disfrutes: <br /><br />link a la landing del ebook.</span>
+                    <span>¿Quieres seguir indagando por los dones espirituales? Te regalo un Ebook gratuito sobre el tema, espero lo disfrutes: <br /><br />
+                        <a
+                            href="https://subscribepage.io/ebook-dones"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: 'blue', textDecoration: 'underline' }}
+                        >
+                            link a la landing del ebook.
+                        </a>
+                    </span>
                     <br />
                     <br />
                 </Div>
