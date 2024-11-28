@@ -6,11 +6,12 @@ import Resultado from "./Resultado";
 
 function Main() {
   return (
-    <Router>
+    <Router basename="/test-de-dones">
       <Routes>
         <Route path="/" element={<Presentacion />} />
         <Route path="/cuestionario" element={<Cuestionario />} />
         <Route path="/resultado" element={<Resultado />} />
+        <Route path="*" element={<h1>404 - Página no encontrada</h1>} />
       </Routes>
     </Router>
   );
