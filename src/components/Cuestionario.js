@@ -39,8 +39,6 @@ function Cuestionario() {
     "¿Te has sentido atraído desde siempre por temas espirituales, esotéricos o de autoconocimiento, como si fuera un llamado interno?"
     ,
     "¿Alguna vez has sentido que puedes percibir un hilo invisible que te conecta con otros seres de una manera inexplicable, pero innegable?"
-    ,
-    "¿Tienes la habilidad de calmar tu mente y sintonizar con energías sutiles, como una forma de percepción más allá de los sentidos físicos?"
   ]
 
   const [indicePregunta, setIndicePregunta] = useState(0);

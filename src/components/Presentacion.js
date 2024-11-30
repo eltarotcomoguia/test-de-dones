@@ -14,8 +14,10 @@ function Presentacion() {
                 <Div texto>
                     <I className="fa fa-quote-left"></I>
                     <span id="text">
-                        Este test está diseñado para ayudarte a descubrir en qué nivel se encuentra tu afinidad con la conciencia superior.
-                        Te invitamos a honrar ese potencial, alineándote con tu Esencia y participando en la misión de alinearte con tu propio propósito y aportarle al desarrollo de la soberanía energética de la humanidad.
+                        Este test está diseñado para ayudarte a descubrir en qué nivel se encuentra
+                        tu afinidad con la conciencia superior. Te invitamos a honrar ese potencial,
+                        alineándote con tu Esencia y participando en la misión de vibrar en sintonía
+                        con tu propósito y aportarle al desarrollo de la soberanía energética de la humanidad.
                     </span>
                 </Div>
                 <Div boton>
