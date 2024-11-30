@@ -53,7 +53,7 @@ function Resultado() {
                             rel="noopener noreferrer"
                             style={{ color: 'blue', textDecoration: 'underline' }}
                         >
-                            link a la landing del ebook.
+                            Descárgate nuestro libro de dones aquí.
                         </a>
                     </span>
                     <br />
