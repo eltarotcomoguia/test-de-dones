@@ -40,7 +40,7 @@ function Resultado() {
                             rel="noopener noreferrer"
                             style={{ color: 'blue', textDecoration: 'underline' }}
                         >
-                            Entérate más de Circulo 22 e inscríbete a la lista de espera.
+                            Entérate más de Circulo veintidós e inscríbete a la lista de espera.
                         </a>
                     </span>
                     <br />
