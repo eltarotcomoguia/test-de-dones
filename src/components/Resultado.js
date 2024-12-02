@@ -35,12 +35,12 @@ function Resultado() {
                     <br />
                     <span>¿Te gustaría desarrollar tus dones? Hemos creado Círculo Veintidós, una comunidad privada para que desarrolles propósito, dones y sensibilidad. Un lugar seguro en internet para desarrollar tu potencial psíquico. <br /> ¿Te resuena? <br /><br />
                         <a
-                            href="https://chat.whatsapp.com/B8nTVFl0uG57wKEmVqrRID"
+                            href="https://eltarotcomoguia.com/circulo-veintidos/"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ color: 'blue', textDecoration: 'underline' }}
                         >
-                            Clic aquí para unirte a la Lista de Espera.
+                            Entérate más de Circulo 22 e inscríbete a la lista de espera.
                         </a>
                     </span>
                     <br />
