@@ -35,18 +35,18 @@ function Resultado() {
                     <br />
                     <span>¿Te gustaría desarrollar tus dones? Hemos creado Círculo Veintidós, una comunidad privada para que desarrolles propósito, dones y sensibilidad. Un lugar seguro en internet para desarrollar tu potencial psíquico. <br /> ¿Te resuena? <br /><br />
                         <a
-                            href="https://eltarotcomoguia.com/circulo-veintidos/"
+                            href="https://klouser.app/group/circulo-veintidos"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ color: 'blue', textDecoration: 'underline' }}
                         >
-                            Entérate más de Circulo veintidós e inscríbete a la lista de espera.
+                            Entérate más de Circulo veintidós, puertas abiertas hasta 27/12 😌.
                         </a>
                     </span>
                     <br />
                     <br />
                     <br />
-                    <span>¿Quieres seguir indagando por los dones espirituales? Te regalo un Ebook gratuito sobre el tema, espero lo disfrutes: <br /><br />
+                    {/*<span>¿Quieres seguir indagando por los dones espirituales? Te regalo un Ebook gratuito sobre el tema, espero lo disfrutes: <br /><br />
                         <a
                             href="https://subscribepage.io/ebook-dones"
                             target="_blank"
@@ -57,7 +57,7 @@ function Resultado() {
                         </a>
                     </span>
                     <br />
-                    <br />
+                    <br />*/}
                 </Div>
                 <Div boton>
                     <Button siguiente onClick={() => navigate("/")}>Volver al cuestionario</Button>
