@@ -40,7 +40,7 @@ function Resultado() {
                             rel="noopener noreferrer"
                             style={{ color: 'blue', textDecoration: 'underline' }}
                         >
-                            Entérate más de Circulo veintidós, puertas abiertas hasta 27/12 😌.
+                            Entérate más de Circulo Veintidós, puertas abiertas hasta 27/12 😌.
                         </a>
                     </span>
                     <br />
