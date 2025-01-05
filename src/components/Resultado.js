@@ -47,7 +47,7 @@ function Resultado() {
                     </span>
                     <br />
                     <br />
-                    <br />
+                    {/*<br />
                     <span>¿Quieres seguir indagando por los dones espirituales? Te regalo un Ebook gratuito sobre el tema, espero lo disfrutes: <br /><br />
                         <a
                             href="https://subscribepage.io/ebook-dones"
@@ -59,7 +59,7 @@ function Resultado() {
                         </a>
                     </span>
                     <br />
-                    <br />
+                    <br />*/}
                 </Div>
                 <Div boton>
                     <Button siguiente onClick={() => navigate("/")}>Volver al cuestionario</Button>
