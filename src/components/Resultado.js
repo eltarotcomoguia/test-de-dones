@@ -42,7 +42,7 @@ function Resultado() {
                             style={{ color: 'blue', textDecoration: 'underline' }}
                         >
                             {/*Click aquí para unirte a la Lista de Espera.*/}
-                            Entérate más de Circulo Veintidós, puertas abiertas hasta 09/01/2025 😌.
+                            Entérate más de Circulo Veintidós, puertas abiertas hasta 09/02/2025 😌.
                         </a>
                     </span>
                     <br />
