@@ -35,14 +35,14 @@ function Resultado() {
                     <br />
                     <span>¿Te gustaría desarrollar tus dones? Hemos creado Círculo Veintidós, una comunidad privada para que desarrolles propósito, dones y sensibilidad. Un lugar seguro en internet para desarrollar tu potencial psíquico. <br /> ¿Te resuena? <br /><br />
                         <a
-                            /*href="https://eltarotcomoguia.com/circulo-veintidos/"*/
-                            href="https://klouser.app/group/circulo-veintidos"
+                            href="https://eltarotcomoguia.com/circulo-veintidos/"
+                            /*href="https://klouser.app/group/circulo-veintidos"*/
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ color: 'blue', textDecoration: 'underline' }}
                         >
-                            {/*Click aquí para unirte a la Lista de Espera.*/}
-                            Entérate más de Circulo Veintidós, puertas abiertas hasta 09/02/2025 😌.
+                            Click aquí para unirte a la Lista de Espera.
+                            {/*Entérate más de Circulo Veintidós, puertas abiertas hasta 09/02/2025 😌.*/}
                         </a>
                     </span>
                     <br />
